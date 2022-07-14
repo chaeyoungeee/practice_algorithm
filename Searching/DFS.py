@@ -1,4 +1,4 @@
-def dfs(graph, v, visited):
+def dfs(graph, v, visited): # 재귀 함수로 구현
     # 현재 노드 방문 처리
     visited[v] = True
     print(v, end=' ')
